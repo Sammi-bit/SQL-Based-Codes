@@ -2,6 +2,7 @@
 This project demonstrates practical SQL skills by simulating a simple banking system. It includes database design, CRUD operations, joins, filtering, sorting, and aggregate functions, making it ideal for beginners and intermediate SQL learners.
 
 📁 Features
+
 ✅ Create and use a database
 
 ✅ Manage bank accounts (create, read, update, delete)
