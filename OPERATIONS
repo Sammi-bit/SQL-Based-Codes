@@ -1,0 +1,8 @@
+-- Update balance for a specific account
+UPDATE Accounts SET Balance = Balance + 1000 WHERE AccountID = 1001;
+-- Delete an account
+DELETE FROM Accounts WHERE AccountID = 1002;
+-- Total and average balance
+SELECT COUNT(*) AS TotalAccounts, SUM(Balance) AS TotalBalance, AVG(Balance) AS AverageBalance FROM Accounts;
+-- List accounts ordered by balance
+SELECT * FROM Accounts ORDER BY Balance DESC;
