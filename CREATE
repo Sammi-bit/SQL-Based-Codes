@@ -1,0 +1,10 @@
+CREATE DATABASE BankDB;
+
+USE BankDB;
+
+CREATE TABLE Accounts (
+    AccountID INT PRIMARY KEY,
+    HolderName VARCHAR(100),
+    Balance DECIMAL(10,2),
+    CreatedAt DATE
+);
