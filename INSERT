@@ -1,0 +1,5 @@
+INSERT INTO Accounts (AccountID, HolderName, Balance, CreatedAt)
+VALUES
+(1001, 'Alice', 5000.00, '2023-06-01'),
+(1002, 'Bob', 3200.50, '2023-06-05'),
+(1003, 'Charlie', 7800.00, '2023-06-10');
