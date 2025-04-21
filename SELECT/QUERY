@@ -1,0 +1,6 @@
+-- Fetch all accounts
+SELECT * FROM Accounts;
+
+-- Fetch accounts with balance > 4000
+SELECT HolderName, Balance FROM Accounts WHERE Balance > 4000;
+
