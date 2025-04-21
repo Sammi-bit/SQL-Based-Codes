@@ -1,0 +1,13 @@
+CREATE TABLE Transactions (
+    TransactionID INT PRIMARY KEY,
+    AccountID INT,
+    Amount DECIMAL(10,2),
+    Type VARCHAR(10), -- 'deposit' or 'withdraw'
+    Date DATE,
+    FOREIGN KEY (AccountID) REFERENCES Accounts(AccountID)
+);
+
+-- Join: Show all transactions with account holder name
+SELECT A.HolderName, T.Amount, T.Type, T.Date
+FROM Accounts A
+JOIN Transactions T ON A.AccountID = T.AccountID;
